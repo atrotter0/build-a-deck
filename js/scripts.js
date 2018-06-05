@@ -22,7 +22,11 @@ $(document).ready(function() {
   $("#submit").click(function(e) {
     e.preventDefault();
 
-    $(".output-block").show();
+    $(".output-block").fadeIn(800).addClass("fancy-box");
     buildDeck(getCardPrefixes(), getCardSuits());
+  });
+
+  $("#reset").click(function() {
+    location.reload();
   });
 });
