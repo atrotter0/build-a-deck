@@ -1,4 +1,4 @@
-function buildDeck(cardPrefixes, cardSuits) {
+function buildDeck(cardSuits, cardPrefixes) {
   cardSuits.forEach(function(suit) {
     cardPrefixes.forEach(function(prefix) {
       var finalCard = prefix + " of " + suit;
@@ -23,7 +23,7 @@ $(document).ready(function() {
     e.preventDefault();
 
     $(".output-block").fadeIn(800).addClass("fancy-box");
-    buildDeck(getCardPrefixes(), getCardSuits());
+    buildDeck(getCardSuits(), getCardPrefixes());
   });
 
   $("#reset").click(function() {
