@@ -1,4 +1,4 @@
-# Word Play
+# Build a Deck
 
 #### Epicodus Intro to Programming lesson, 06.04.2018
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-Enter a word to turn it into gibberish! Built with JS, jQuery, and Bootstrap.
+Build a deck of cards with the click of a button! Built with JS, jQuery, and Bootstrap.
 
 ## Setup/Contribution Requirements
 
